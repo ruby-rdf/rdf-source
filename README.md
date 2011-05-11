@@ -14,7 +14,6 @@ Example
     require 'rdf/source'
 
     CDs = RDF::Vocabulary.new('http://example.org/')
-    CDs = RDF::Vocabulary.new('http://example.org/')
 
     class CD
       include RDF::Source
